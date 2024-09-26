@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container animated fadeIn">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="voterId">Voter ID Card Number</label>
+            <input type="text" id="voterIdLogin" name="voterId" required>
+            
+            <label for="aadhaar">Aadhaar Card Number</label>
+            <input type="text" id="aadhaarLogin" name="aadhaar" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginMessage"></p>
+        <a href="register.html">Don't have an account? Register</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

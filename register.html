@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container animated fadeIn">
+        <h1>Register</h1>
+        <form id="registerForm">
+            <label for="voterId">Voter ID Card Number</label>
+            <input type="text" id="voterId" name="voterId" required>
+            
+            <label for="aadhaar">Aadhaar Card Number</label>
+            <input type="text" id="aadhaar" name="aadhaar" required>
+
+            <label for="photoFront">Photo of Front of Voter ID</label>
+            <input type="file" id="photoFront" name="photoFront" accept="image/*" required>
+
+            <label for="photoBack">Photo of Back of Voter ID</label>
+            <input type="file" id="photoBack" name="photoBack" accept="image/*" required>
+
+            <button type="submit">Register</button>
+        </form>
+        <p id="registerMessage"></p>
+        <a href="login.html">Already registered? Login</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
